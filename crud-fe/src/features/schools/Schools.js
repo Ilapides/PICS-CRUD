@@ -185,7 +185,7 @@ export function Campus() {
                         <img src={`${campus.imageUrl}`} alt="Portrait" className="ra-circle bo_xs size_xl"/>
                         <h3 className="text-clip">{`${campus.name}`}</h3>
                         <p>{campus.address}</p>
-                        <p className="ma-t_xs">{`${campus.description}`}</p>
+                        <h1 className="ma-t_xs">{`${campus.description}`}</h1>
                         <button className="button ra-pill ma-t_m" onClick={()=>{deleteCampusCall(campus)}}>Delete Campus</button>
                     </div>
             </div>

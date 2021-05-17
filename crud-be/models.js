@@ -74,7 +74,7 @@ sequelize.sync({ force: true })
   })
   .then(() => {
       // make dummy data
-      Campus.create({name: "Fake State University", address: "123 Fake Street, Fake City, 40404, FS", description: "Per herbam ad astra"})
+      Campus.create({name: "Fake State University", address: "123 Fake Street, Fake City, 40404, FS", description: "EXTREMELY LARGE text"})
         .then(()=>{
             Student.create({firstName: "Bond", lastName: "James", email: "bond@jim.co", gpa: 3.1, campusCampusID: 1})
             Student.create({
